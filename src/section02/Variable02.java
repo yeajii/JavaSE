@@ -2,21 +2,20 @@ package section02;
  /*
   * 2.  문자형(char)
   * 	 문자 한 글자 저장 가능 - 전세계 쓰이는 대부분의 문자 표현 가능
-  * 	2byte
+  * 	 2byte
   * 
   * 	선언방법
   * 		 char 변수명;
   * 
   * 	변수 초기화
   * 		변수를 사용하기 전에 값을 할당하는 것 의미 
-  * 
   */
 
 public class Variable02 {
 		public static void main(String[] args) {
 				// char 형 변수 선언과 동시에 값 대입하기(초기화)
 			 char ch1 = 'A';
-			 System.out.println("char 형 변수에 저장된 문자:" + ch1);
+			 System.out.println("char 형 변수에 저장된 문자: " + ch1);
 			 
 			 char ch2, ch3;
 			 ch2 = '김';

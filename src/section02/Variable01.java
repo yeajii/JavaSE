@@ -1,10 +1,13 @@
 package section02;
 /*
- * 1.  논리형(bloolean)
+ * 1.  논리형(boolean)
  *  		true, false 두 가지 값 가지는 기본 자료형
  *  		1bybe
  * 
+ * 		선언방법
+ * 			boolean 변수명;
  */
+
 public class Variable01 {
 	public static void main(String[] args) {
 		//논리형 변수 선언하기

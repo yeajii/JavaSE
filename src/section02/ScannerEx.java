@@ -20,7 +20,7 @@ public class ScannerEx {
 		int age; // 정수 값을 담는 변수
 		double weight; // 실수 값을 담는 변수
 
-		System.out.println("이름, 주소, 나이, 제중을 빈칸으로 구분하여 순서대로 입력하세요.");
+		System.out.println("이름, 주소, 나이, 체중을 빈칸으로 구분하여 순서대로 입력하세요.");
 		name = scanner.next();
 		address = scanner.next();
 		age = scanner.nextInt();
@@ -30,5 +30,6 @@ public class ScannerEx {
 		System.out.printf("당신의 주소는 %s 입니다.\n", address);
 		System.out.printf("당신의 나이는 %d 입니다.\n", age);
 		System.out.printf("당신의 주소는 %.1kg입니다.\n", weight);
+		
 	}
 }
